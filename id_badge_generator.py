@@ -1,0 +1,27 @@
+#Asks for the user information
+first_name = input("What is your first name? ").capitalize()
+last_name = input("What is your last name? ").upper()
+email = input("What is your email? ").lower()
+phone_number = input("What is your phone number? ")
+job = input("What is your job? ").title()
+id_number = input("What is your id number? ")
+
+print("Please enter the following information:")
+print()
+print(f"First name: {first_name}")
+print(f"Last name: {last_name}")
+print(f"email: {email}")
+print(f"Phone number: {phone_number}")
+print(f"Job title: {job}")
+print(f"ID Number: {id_number}")
+
+#Prints ID Card
+print("The ID Card is: ")
+print("-------------------------------")
+print(f"{last_name}, {first_name}")
+print(job)
+print(f"ID: {id_number}")
+print()
+print(email)
+print(phone_number)
+print("-------------------------------")
